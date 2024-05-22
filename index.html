@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+    <script type="module" src="/main.js"></script>
+
+    <section>
+      <h1>PokeApi</h1>
+      <label for="inputPokemon">Busca tu pokemon por nombre o ID</label>
+      <br>
+      <input type="text" id="inputPokemon" name="inputPokemon">
+      <button id="pokemon">Buscar por nombre</button>
+      <button id="random">Busqueda aleatoria</button>
+    </section>
+    <main id="main">
+      <section id="card" class="card d-none">
+        <h2 class="card__title">Titulo</h2>
+        <div id="card__info">
+          <img src="" alt="" class="card__img">
+          <p class="card__description">Descripcion</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
